@@ -1,0 +1,11 @@
+# 05_app.py 部署套件；使用 Python 3.14（模型訓練版本為 3.14.7）。
+# 模型相依套件固定為已驗證版本，避免 joblib 跨版本載入差異。
+streamlit==1.66.1
+altair==6.3.0
+scikit-learn==1.9.1
+pandas==3.0.6
+numpy==2.5.4
+joblib==1.6.0
+scipy==1.18.1
+threadpoolctl==3.7.0
+
